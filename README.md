@@ -34,3 +34,9 @@
 
 - Timeline delle missioni
 
+## Changelog
+
+- 01/05/2026
+  - Inizio progetto
+  - Sistemazione minore del README
+  - Implementazione del changelog
