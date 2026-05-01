@@ -30,7 +30,7 @@
 
 - Un minigioco semplice
 
-- Immagine finto 3D (Tecnicamente è solo lo screenshot di un modello 3D Blender)
+- Immagine finto 3D (Tecnicamente sarà solo lo screenshot di un modello 3D Blender)
 
 - Timeline delle missioni
 
