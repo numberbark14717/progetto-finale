@@ -1,0 +1,31 @@
+
+/*
+color: valore;        = cambia il colore del testo
+font-size: valore;    = cambia la dimensione del testo
+font-family: nome;    = cambia il font
+text-align: valore;   = allinea (left, center, right)
+margin: valore;       = spazio ESTERNO
+padding: valore;      = spazio INTERNO
+line-height: valore;  = spaziatura tra le righe*/
+
+body {
+    background: linear-gradient(to bottom, #b3392f, #1a1a1a);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-family: Verdana;
+}
+
+h2 {
+    color: blue;
+    text-align: left;
+    font-family: Verdana;
+}
+
+p {
+    font-family: Verdana;
+}
