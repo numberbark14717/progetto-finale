@@ -40,3 +40,7 @@
   - Inizio progetto
   - Sistemazione minore del README
   - Implementazione del changelog
+
+- 05/05/2026
+  - Implementazione di una nuova pagina
+  - Creato collegamento tra pagina principale e nuova pagina
