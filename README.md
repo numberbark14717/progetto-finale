@@ -23,6 +23,22 @@
   4) Eventuale Timeline facile da capire
   5) Immagini comprensibili senza spiegazioni orali
 
+- Essere diviso in più parti
+  1) Una pagina per ogni cosa  (Linea del tempo, modello esploso, ecc.)
+  2) NON una pagina per ogni collegamento (materia), una pagina ogni due collegamenti o raggruppamenti (Materie STEAM, lingue straniere, ecc.)
+  3) Da ogni parte si deve poter andare in un'altra collegata _E_ nella pagina "Menu"
+  
+- Suddivisione finale:
+  1) Index
+  2) Materie STEAM
+  3) Italiano, storia e geografia
+  4) Lingue straniere (Inglese e spagnolo)
+  5) Musica e arte
+  6) Educazione fisica e religione
+  7) Educazione civica
+  8) Linea del tempo
+  9) Modello esploso (Nel caso sia presente)
+
 ## COSA _SAREBBE MEGLIO_ CHE FACESSE:
 - Avere un pulsante che permette di cambiare lingua tra IT, EN e ES
 
@@ -44,3 +60,15 @@
 - 05/05/2026
   - Implementazione di una nuova pagina
   - Creato collegamento tra pagina principale e nuova pagina
+
+- 06/05/2026
+  - Aggiunti requisiti "Essere suddiviso in più parti"
+  - Decisa la suddivisione finale
+  - Aggiunti tutti i file html per le varie pagine
+  - Rinomina della pagina "font test" a "Home page" e aggiunta di icona
+  - Modifica radicale dello stile del titolo, sottotitolo, testo, link, sfondo e padding
+  - Deciso stile grafico e palette
+  - Aggiunta della cartella "css" contente il file "style.css" all'interno della cartella "static"
+  - Aggiunta della cartella "images" contenente favicon all'interno della cartella "static"
+  - Aggiunta della classe "container"
+  - Cambiati i collegamenti tra file html e css per seguire la nuova suddivisione delle cartelle

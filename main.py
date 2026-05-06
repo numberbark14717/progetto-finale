@@ -10,4 +10,5 @@ def home():
 def linea_tempo():
     return render_template("lineatempo.html")
 
-app.run()
+if __name__ == "__main__":
+    app.run(debug=True)

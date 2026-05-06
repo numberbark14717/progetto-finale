@@ -5,22 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- COLLEGA IL CSS -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon.png') }}">
 
-    <title>Test Font</title>
+    <title>Home page</title>
 </head>
 
 <body>
-
-    {% block content %}
-    <h1>Questo è un titolo</h1>
-    <h2>Questo è un sottotitolo</h2>
-    <p>Questo è un paragrafo di testo.</p>
-    <ul>
-        <li><a href="{{ url_for('linea_tempo') }}">Linea del Tempo</a></li>
-        <li>Elemento 2</li>
-        <li>Elemento 3</li>
-    </ul>
-    {% endblock %}
+    <div class="container">
+        <h1>L'esplorazione di Marte</h1>
+        <h2>Lo scopo di questo sito</h2>
+        <p>Questo sito è stato realizzato come progetto finale della mia tesina di terza media, con l'obiettivo di presentare in modo semplice e accessibile le principali esplorazioni di Marte. I contenuti sono stati selezionati e rielaborati da me. Eventuali imprecisioni possono derivare dal tempo limitato a disposizione e dal livello scolastico del progetto.</p>
+        <h2>Cosa si può trovare in questo sito</h2>
+        <p>Tante cose interessanti!</p>
+        <ul>
+            <li><a href="{{ url_for('linea_tempo') }}">Linea del Tempo</a></li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ul>
+    </div>
 </body>
 </html>
