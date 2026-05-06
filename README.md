@@ -72,3 +72,4 @@
   - Aggiunta della cartella "images" contenente favicon all'interno della cartella "static"
   - Aggiunta della classe "container"
   - Cambiati i collegamenti tra file html e css per seguire la nuova suddivisione delle cartelle
+  - Implementata riga di codice in "main.py" per attivare la debug mode di Flask
