@@ -50,6 +50,12 @@
 
 - Timeline delle missioni
 
+## Test da fare prima di definire completo il sito
+- Deve essere accessibile da qualunque computer con connessione ad internet
+- Tutte le pagine presenti devono essere accessibili con i link presenti nel menu
+- Non devono essere presenti pagine vuote: deve tutto essere completo almeno nei [COSA DOVRÀ FARE](#cosa-dovrà-fare)
+- Non deve presentare errori di alcun tipo, grammaticali/sintattici (Accenti mancanti, frasi incomplete, ecc.) e informatici (Link che non portano da nessuna parte, pagine/pulsanti che causano errori, ecc.)
+ 
 ## Changelog
 
 - 01/05/2026
@@ -77,3 +83,6 @@
 - 07/05/2026
   - Aggiunta di nuovi sottitoli con spiegazione del sito e della navigazione
   - Aggiunta della barra di navigazione
+
+- 08/05/2026
+  - Aggiunta lista delle cose da provare all'interno del README file
