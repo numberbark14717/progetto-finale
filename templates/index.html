@@ -11,13 +11,33 @@
     <title>Home page</title>
 </head>
 
+<div class="navbar">
+  <div class="navbar-inner">
+    <a href="{{ url_for('home') }}">Home</a>
+    <a href="{{ url_for('linea_tempo') }}">Linea del Tempo</a>
+  </div>
+</div>
+
 <body>
     <div class="container">
         <h1>L'esplorazione di Marte</h1>
         <h2>Lo scopo di questo sito</h2>
-        <p>Questo sito è stato realizzato come progetto finale della mia tesina di terza media, con l'obiettivo di presentare in modo semplice e accessibile le principali esplorazioni di Marte. I contenuti sono stati selezionati e rielaborati da me. Eventuali imprecisioni possono derivare dal tempo limitato a disposizione e dal livello scolastico del progetto.</p>
+        <p>Questo sito è stato realizzato come progetto finale della mia tesina di terza media, 
+            con l'obiettivo di presentare in modo semplice e accessibile le principali esplorazioni di Marte. 
+            I contenuti sono stati selezionati e rielaborati da me. 
+            Eventuali imprecisioni possono derivare dal tempo limitato a disposizione e dal livello scolastico del progetto.</p>
         <h2>Cosa si può trovare in questo sito</h2>
-        <p>Tante cose interessanti!</p>
+        <p>In questo sito è possibile trovare informazioni riguardo le esplorazioni di Marte sotto molti aspetti diversi, 
+            come la storia delle missioni, la conformazione di Marte e anche le sue apparizioni nell'arte.<br> 
+            <!-- me del futuro, ricordati che br serve per gli a capo e che questo formato è per i commenti-->
+            È anche possibile trovare una linea del tempo che mostra le date, associate a piccole spiegazione, 
+            di tutte le missioni che hanno riguardato e riguarderanno Marte.<br>
+            Si possono anche trovare delle curiosità riguardo Marte, come ad esempio .
+        </p>
+        <h2>Come navigare tra le pagine</h2>
+        <p>Per navigare tra le varie pagine del sito è necessario cliccare sui link disponibili nel menu in questa pagina 
+            o nella barra presente nella parte alta di tutte le atre pagine che porteranno alle pagine correlate e al menu, 
+            in questa pagina.</p>
         <ul>
             <li><a href="{{ url_for('linea_tempo') }}">Linea del Tempo</a></li>
             <li>Elemento 2</li>

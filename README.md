@@ -73,3 +73,7 @@
   - Aggiunta della classe "container"
   - Cambiati i collegamenti tra file html e css per seguire la nuova suddivisione delle cartelle
   - Implementata riga di codice in "main.py" per attivare la debug mode di Flask
+
+- 07/05/2026
+  - Aggiunta di nuovi sottitoli con spiegazione del sito e della navigazione
+  - Aggiunta della barra di navigazione
