@@ -70,3 +70,103 @@ li {
     color: #ffb37a;
     font-family: Verdana;
 }
+
+/* Timeline Styles */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 60px auto;
+}
+
+/* Linea verticale al centro */
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(to bottom, #b3392f, #e6b980);
+}
+
+/* Freccia in fondo alla linea */
+.timeline::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid #e6b980;
+}
+
+.timeline-item {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.timeline-item.left {
+    text-align: right;
+    width: 48%;
+    left: 0;
+}
+
+.timeline-item.right {
+    text-align: left;
+    width: 48%;
+    left: 52%;
+}
+
+.timeline-content {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.timeline-content h3 {
+    color: #e6b980;
+    margin-top: 0;
+    font-family: Verdana;
+}
+
+.timeline-content .date {
+    color: #b3392f;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.timeline-content img {
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.timeline-content p {
+    color: #f5f5f5;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+/* Cerchio sulla linea */
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #b3392f;
+    border: 3px solid #320202;
+    border-radius: 50%;
+    top: 30px;
+}
+
+.timeline-item.left::after {
+    right: -12px;
+}
+
+.timeline-item.right::after {
+    left: -12px;
+}

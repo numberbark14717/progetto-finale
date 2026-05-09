@@ -86,3 +86,6 @@
 
 - 08/05/2026
   - Aggiunta lista delle cose da provare all'interno del README file
+
+- 09/05/2026
+  - Aggiunta linea del tempo di base da modificare in seguito

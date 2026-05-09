@@ -6,15 +6,63 @@
 
     <!-- COLLEGA IL CSS -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon.png') }}">
 
-    <title>Linea del Tempo</title>
+    <title>Linea del tempo</title>
 </head>
 
+<div class="navbar">
+  <div class="navbar-inner">
+    <a href="{{ url_for('home') }}">Home</a>
+    <!--<a href="{{ url_for('linea_tempo') }}">Linea del Tempo</a>-->
+  </div>
+</div>
+
 <body>
+    <div class="container">
+        <h1>Linea del tempo delle missioni su Marte</h1>
+        
+        <div class="timeline">
+            <!-- Missione 1 - Sinistra -->
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Missione 1</h3>
+                    <p class="date">1997</p>
+                    <img src="https://via.placeholder.com/200x150?text=Missione+1" alt="Missione 1">
+                    <p>Descrizione della missione 1. Breve spiegazione di cosa ha fatto e risultati raggiunti.</p>
+                </div>
+            </div>
 
-    <h1>Questo è un titolo</h1>
-    <h2>Questo è un sottotitolo</h2>
-    <p>Questo è un paragrafo di testo.</p>
+            <!-- Missione 2 - Destra -->
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>Missione 2</h3>
+                    <p class="date">2004</p>
+                    <img src="https://via.placeholder.com/200x150?text=Missione+2" alt="Missione 2">
+                    <p>Descrizione della missione 2. Breve spiegazione di cosa ha fatto e risultati raggiunti.</p>
+                </div>
+            </div>
 
+            <!-- Missione 3 - Sinistra -->
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Missione 3</h3>
+                    <p class="date">2012</p>
+                    <img src="https://via.placeholder.com/200x150?text=Missione+3" alt="Missione 3">
+                    <p>Descrizione della missione 3. Breve spiegazione di cosa ha fatto e risultati raggiunti.</p>
+                </div>
+            </div>
+
+            <!-- Missione 4 - Destra -->
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>Missione 4</h3>
+                    <p class="date">2021</p>
+                    <img src="https://via.placeholder.com/200x150?text=Missione+4" alt="Missione 4">
+                    <p>Descrizione della missione 4. Breve spiegazione di cosa ha fatto e risultati raggiunti.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
