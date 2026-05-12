@@ -13,8 +13,49 @@
 
 <div class="navbar">
   <div class="navbar-inner">
-    <a href="{{ url_for('home') }}">Home</a>
-    <a href="{{ url_for('linea_tempo') }}">Linea del Tempo</a>
+    <div class="navbar-dropdown">
+      <a href="{{ url_for('linea_tempo') }}" class="navbar-btn">Linea del Tempo</a>
+    </div>
+    <div class="navbar-dropdown">
+      <a href="{{ url_for('edciv') }}" class="navbar-btn">Ed. Civica</a>
+    </div>
+    <div class="navbar-dropdown">
+      <button class="navbar-btn navbar-dropdown-btn">Ed. Fisica ▼</button>
+      <div class="navbar-dropdown-menu">
+        <a href="{{ url_for('edfis_irc') }}" class="navbar-dropdown-item">Educazione Fisica</a>
+        <a href="{{ url_for('edfis_irc') }}#irc" class="navbar-dropdown-item">IRC</a>
+      </div>
+    </div>
+    <div class="navbar-dropdown">
+      <button class="navbar-btn navbar-dropdown-btn">Lingue ▼</button>
+      <div class="navbar-dropdown-menu">
+        <a href="{{ url_for('ing_spa') }}" class="navbar-dropdown-item">Inglese</a>
+        <a href="{{ url_for('ing_spa') }}#spagnolo" class="navbar-dropdown-item">Spagnolo</a>
+      </div>
+    </div>
+    <div class="navbar-dropdown">
+      <button class="navbar-btn navbar-dropdown-btn">Italiano ▼</button>
+      <div class="navbar-dropdown-menu">
+        <a href="{{ url_for('ita_sto_geo') }}" class="navbar-dropdown-item">Italiano</a>
+        <a href="{{ url_for('ita_sto_geo') }}#storia" class="navbar-dropdown-item">Storia</a>
+        <a href="{{ url_for('ita_sto_geo') }}#geografia" class="navbar-dropdown-item">Geografia</a>
+      </div>
+    </div>
+    <div class="navbar-dropdown">
+      <button class="navbar-btn navbar-dropdown-btn">Matematica ▼</button>
+      <div class="navbar-dropdown-menu">
+        <a href="{{ url_for('mat_sci_tec') }}" class="navbar-dropdown-item">Matematica</a>
+        <a href="{{ url_for('mat_sci_tec') }}#scienze" class="navbar-dropdown-item">Scienze</a>
+        <a href="{{ url_for('mat_sci_tec') }}#tecnologia" class="navbar-dropdown-item">Tecnologia</a>
+      </div>
+    </div>
+    <div class="navbar-dropdown">
+      <button class="navbar-btn navbar-dropdown-btn">Arte ▼</button>
+      <div class="navbar-dropdown-menu">
+        <a href="{{ url_for('mus_art') }}" class="navbar-dropdown-item">Musica</a>
+        <a href="{{ url_for('mus_art') }}#arte" class="navbar-dropdown-item">Arte</a>
+      </div>
+    </div>
   </div>
 </div>
 

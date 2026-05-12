@@ -89,3 +89,10 @@
 
 - 09/05/2026
   - Aggiunta linea del tempo di base da modificare in seguito
+
+- 12/05/2026
+  - Aggiunti link a tutte le pagine html
+  - Aggiunti bottoni sotto i link nella navbar
+  - Aggiunti bottoni che portano a parti diverse nella stessa pagina
+  - Aggiunti menu a tendina che si aprono in hovering
+  - ATTENZIONE: PROGRAMMATA PER DOMANI L'AGGIUNTA DI UN HOVERING-BRIDGE PER RENDERE PIÙ FACILE L'UTILIZZO DEI MENU
