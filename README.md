@@ -101,3 +101,4 @@
   - Aggiunto hovering-bridge ai menu a tendina
   - Formattata la barra di navigazione in tutti gli html
   - Modificati i nomi dei bottoni
+  - Raggiunta verisone 1.0 della barra di navigazione
