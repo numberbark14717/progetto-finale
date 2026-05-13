@@ -90,6 +90,16 @@ line-height: valore;  = spaziatura tra le righe*/
     transition: opacity 0.2s ease, visibility 0.2s ease;
 }
 
+.hover-bridge {
+    position: absolute;
+    top: -12px; /* sopra il menu */
+    left: 0;
+    width: 100%;
+    height: 12px;
+    opacity: 0;
+    pointer-events: auto;
+}
+
 .navbar-dropdown-item {
     display: block;
     padding: 10px 16px;

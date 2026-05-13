@@ -96,3 +96,8 @@
   - Aggiunti bottoni che portano a parti diverse nella stessa pagina
   - Aggiunti menu a tendina che si aprono in hovering
   - ATTENZIONE: PROGRAMMATA PER DOMANI L'AGGIUNTA DI UN HOVERING-BRIDGE PER RENDERE PIÙ FACILE L'UTILIZZO DEI MENU
+
+- 13/05/2026
+  - Aggiunto hovering-bridge ai menu a tendina
+  - Formattata la barra di navigazione in tutti gli html
+  - Modificati i nomi dei bottoni

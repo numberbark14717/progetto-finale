@@ -10,45 +10,61 @@
 
 <div class="navbar">
   <div class="navbar-inner">
+
     <div class="navbar-dropdown">
       <a href="{{ url_for('home') }}" class="navbar-btn">Home</a>
     </div>
+
     <div class="navbar-dropdown">
       <a href="{{ url_for('linea_tempo') }}" class="navbar-btn">Linea del Tempo</a>
     </div>
+
     <div class="navbar-dropdown">
-      <a href="{{ url_for('edciv') }}" class="navbar-btn">Ed. Civica</a>
+      <a href="{{ url_for('edciv') }}" class="navbar-btn">Inquinamento spaziale</a>
     </div>
+
+    <!-- ED. FISICA + IRC -->
     <div class="navbar-dropdown">
-      <button class="navbar-btn navbar-dropdown-btn">Ed. Fisica ▼</button>
+      <button class="navbar-btn navbar-dropdown-btn">Persona ▼</button>
       <div class="navbar-dropdown-menu">
-        <a href="{{ url_for('edfis_irc') }}" class="navbar-dropdown-item">Educazione Fisica</a>
-        <a href="{{ url_for('edfis_irc') }}#irc" class="navbar-dropdown-item">IRC</a>
+        <div class="hover-bridge"></div>
+        <a href="{{ url_for('edfis_irc') }}" class="navbar-dropdown-item">Preparazione allo Spazio</a>
+        <a href="{{ url_for('edfis_irc') }}#irc" class="navbar-dropdown-item">Scienziati credenti</a>
       </div>
     </div>
+
+    <!-- ITALIANO / STORIA / GEOGRAFIA -->
     <div class="navbar-dropdown">
-      <button class="navbar-btn navbar-dropdown-btn">Italiano ▼</button>
+      <button class="navbar-btn navbar-dropdown-btn">Umanistica ▼</button>
       <div class="navbar-dropdown-menu">
-        <a href="{{ url_for('ita_sto_geo') }}" class="navbar-dropdown-item">Italiano</a>
-        <a href="{{ url_for('ita_sto_geo') }}#storia" class="navbar-dropdown-item">Storia</a>
-        <a href="{{ url_for('ita_sto_geo') }}#geografia" class="navbar-dropdown-item">Geografia</a>
+        <div class="hover-bridge"></div>
+        <a href="{{ url_for('ita_sto_geo') }}" class="navbar-dropdown-item">The martian</a>
+        <a href="{{ url_for('ita_sto_geo') }}#storia" class="navbar-dropdown-item">Esplorazioni prima e ora</a>
+        <a href="{{ url_for('ita_sto_geo') }}#geografia" class="navbar-dropdown-item">Terre di nessuno</a>
       </div>
     </div>
+
+    <!-- MATEMATICA / SCIENZE / TECNOLOGIA -->
     <div class="navbar-dropdown">
-      <button class="navbar-btn navbar-dropdown-btn">Matematica ▼</button>
+      <button class="navbar-btn navbar-dropdown-btn">Scientifica ▼</button>
       <div class="navbar-dropdown-menu">
-        <a href="{{ url_for('mat_sci_tec') }}" class="navbar-dropdown-item">Matematica</a>
-        <a href="{{ url_for('mat_sci_tec') }}#scienze" class="navbar-dropdown-item">Scienze</a>
-        <a href="{{ url_for('mat_sci_tec') }}#tecnologia" class="navbar-dropdown-item">Tecnologia</a>
+        <div class="hover-bridge"></div>
+        <a href="{{ url_for('mat_sci_tec') }}" class="navbar-dropdown-item">Comunicazioni sfalsate</a>
+        <a href="{{ url_for('mat_sci_tec') }}#scienze" class="navbar-dropdown-item">Pianeta Rosso</a>
+        <a href="{{ url_for('mat_sci_tec') }}#tecnologia" class="navbar-dropdown-item">Sistemi di alimentazione</a>
       </div>
     </div>
+
+    <!-- ARTE / MUSICA -->
     <div class="navbar-dropdown">
-      <button class="navbar-btn navbar-dropdown-btn">Arte ▼</button>
+      <button class="navbar-btn navbar-dropdown-btn">Artistica ▼</button>
       <div class="navbar-dropdown-menu">
-        <a href="{{ url_for('mus_art') }}" class="navbar-dropdown-item">Musica</a>
-        <a href="{{ url_for('mus_art') }}#arte" class="navbar-dropdown-item">Arte</a>
+        <div class="hover-bridge"></div>
+        <a href="{{ url_for('mus_art') }}" class="navbar-dropdown-item">The planets</a>
+        <a href="{{ url_for('mus_art') }}#arte" class="navbar-dropdown-item">Iconografie</a>
       </div>
     </div>
+
   </div>
 </div>
 
