@@ -107,3 +107,6 @@
   - Aggiunti oggetti alla timeline
   - Aggiunte immagini alla timeline
   - Aggiunti bordi dorati alle immagini della timeline
+  - Aggiunta nuova pagina "Agenzie"
+  - Aggiunti i bottoni alla barra di navigazione a tutte le pagine per arrivare alla pagina "Agenzie"
+  - Aggiunta parte linea del tempo "missioni programmate"

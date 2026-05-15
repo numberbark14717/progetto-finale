@@ -14,6 +14,10 @@
   <div class="navbar-inner">
 
     <div class="navbar-dropdown">
+      <a href="{{ url_for('agenzie') }}" class="navbar-btn">Agenzie Spaziali</a>
+    </div>
+
+    <div class="navbar-dropdown">
       <a href="{{ url_for('home') }}" class="navbar-btn">Home</a>
     </div>
 
@@ -258,6 +262,63 @@
                 </div>
             </div>
 
+            <div class="timeline-separator">
+                <div class="separator-dot"></div>
+                <h3>— Inizio delle missioni future —</h3>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Mars Sample Return</h3>
+                    <p class="date">2030+</p>
+                    <img src="{{ url_for('static', filename='images/Mars Sample Return.png') }}" alt="Mars Sample Return">
+                    <p>Agenzia: NASA, ESA <br>
+                    Anno: 2030+ <br>
+                    Tipo: Recupero di campioni <br>
+                    Obiettivi previsti: <br>
+                    - Recupero di campioni prelevati dai rover passati <br>
+                    - Primi volta che dei campioni marziani vengono portati sulla Terra</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>ExoMars Rosalind Franklin</h3>
+                    <p class="date">2028</p>
+                    <img src="{{ url_for('static', filename='images/ExoMars Rosalind Franklin.png') }}" alt="ExoMars Rosalind Franklin">                    
+                    <p>Agenzia: ESA <br>
+                    Anno: 2028 <br>
+                    Tipo: Rover <br>
+                    Obiettivi previsti: <br>
+                    - Perforazione del suolo fino a 2 metri per cercare segni di vita passata</p>
+                </div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Mars Ice Mapper</h3>
+                    <p class="date">2030+</p>
+                    <img src="{{ url_for('static', filename='images/Mars Ice Mapper.png') }}" alt="Mars Ice Mapper">
+                    <p>Agenzia: NASA, CSA, JAXA, ASI <br>
+                    Anno: 2030+ <br>
+                    Tipo: Orbiter <br>
+                    Obiettivi previsti: <br>
+                    - Mappatura dei ghiacci sotterranei per future missioni umane</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>NASA Human Mars Mission</h3>
+                    <p class="date">2030-2040</p>
+                    <img src="{{ url_for('static', filename='images/Nasa Human Mars Mission.jpg') }}" alt="NASA Human Mars Mission">                    
+                    <p>Agenzia: NASA <br>
+                    Anno: 2030-2040 <br>
+                    Tipo: Missione umana <br>
+                    Obiettivi previsti: <br>
+                    - Primo sbarco umano su Marte</p>
+                </div>
+            </div>
         </div>
     </div>
 </body>

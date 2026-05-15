@@ -34,5 +34,9 @@ def mat_sci_tec():
 def mus_art():
     return render_template("mus-art.html")
 
+@app.route("/agenzie")
+def agenzie():
+    return render_template("agenzie.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
