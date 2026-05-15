@@ -102,3 +102,8 @@
   - Formattata la barra di navigazione in tutti gli html
   - Modificati i nomi dei bottoni
   - Raggiunta verisone 1.0 della barra di navigazione
+
+- 15/05/2026
+  - Aggiunti oggetti alla timeline
+  - Aggiunte immagini alla timeline
+  - Aggiunti bordi dorati alle immagini della timeline

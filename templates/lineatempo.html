@@ -79,42 +79,182 @@
 <body>
     <div class="container">
         <h1>Linea del tempo delle missioni su Marte</h1>
+        <h2>Come funziona?</h2>
+        <p>Questa linea del tempo consiste in una riga che presenta, 
+            a destra e a sinistra, 
+            le missioni spaziali più importanti che hanno riguardato Marte. <br>
+            Le missioni sono disposte in ordine cronologico dalla più vecchia 
+            (qui in alto)
+            alla più recente e poi a quelle programmate, separate da quelle passate da un segno. <br>
+            Per andare avanti o indietro sulla linea basta scorrere con la rotella del mouse, 
+            premere le frecce sulla tastiera o trascinare la barra del browser sulla destra.
+        </p>
         
         <div class="timeline">
 
             <div class="timeline-item left">
                 <div class="timeline-content">
-                    <h3>Missione 1</h3>
-                    <p class="date">1997</p>
-                    <img src="https://via.placeholder.com/200x150?text=Missione+1" alt="Missione 1">
-                    <p>Descrizione della missione 1. Breve spiegazione di cosa ha fatto e risultati raggiunti.</p>
+                    <h3>Mariner 4</h3>
+                    <p class="date">1965</p>
+                    <img src="{{ url_for('static', filename='images/Mariner 4.jpg') }}" alt="Mariner 4">
+                    <p>Agenzia: NASA <br>
+                    Anno: 1965 <br>
+                    Tipo: Flyby <br>                    
+                    Obiettivi raggiunti: <br>
+                    - Prima foto ravvicinata di Marte</p>
                 </div>
             </div>
 
             <div class="timeline-item right">
                 <div class="timeline-content">
-                    <h3>Missione 2</h3>
-                    <p class="date">2004</p>
-                    <img src="https://via.placeholder.com/200x150?text=Missione+2" alt="Missione 2">
-                    <p>Descrizione della missione 2. Breve spiegazione di cosa ha fatto e risultati raggiunti.</p>
+                    <h3>Mariner 9</h3>
+                    <p class="date">1971</p>
+                    <img src="{{ url_for('static', filename='images/Mariner 9.webp') }}" alt="Mariner 9">
+                    <p>Agenzia: NASA <br>
+                    Anno: 1971 <br>
+                    Tipo: Orbiter <br>
+                    Obiettivi raggiunti: <br>
+                    - Cartografia dettagliata di Marte</p>
                 </div>
             </div>
 
             <div class="timeline-item left">
                 <div class="timeline-content">
-                    <h3>Missione 3</h3>
-                    <p class="date">2012</p>
-                    <img src="https://via.placeholder.com/200x150?text=Missione+3" alt="Missione 3">
-                    <p>Descrizione della missione 3. Breve spiegazione di cosa ha fatto e risultati raggiunti.</p>
+                    <h3>Viking 1</h3>
+                    <p class="date">1975</p>
+                    <img src="{{ url_for('static', filename='images/Viking 1 lander.jpg') }}" alt="Viking 1 (Lander)">
+                    <img src="{{ url_for('static', filename='images/Viking 1 orbiter.jpg') }}" alt="Viking 1 (Orbiter)">                    
+                    <p>Agenzia: NASA <br>
+                    Anno: 1975 <br>
+                    Tipo: Orbiter, lander <br>
+                    Obiettivi raggiunti: <br>
+                    - Primo atterraggio riuscito su Marte <br>
+                    - Esperimenti per cercare la vita </p>
                 </div>
             </div>
 
             <div class="timeline-item right">
                 <div class="timeline-content">
-                    <h3>Missione 4</h3>
+                    <h3>Viking 2</h3>
+                    <p class="date">1976</p>
+                    <img src="{{ url_for('static', filename='images/Viking 2 lander.webp') }}" alt="Viking 2 (Lander)">
+                    <img src="{{ url_for('static', filename='images/Viking 2 orbiter.jpg') }}" alt="Viking 2 (Orbiter)">
+                    <p>Agenzia: NASA <br>
+                    Anno: 1976 <br>
+                    Tipo: Orbiter, lander <br>
+                    Obiettivi raggiunti: <br>
+                    - Conferma e ampliamento dati di Viking 1</p>
+                </div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Mars Global Surveyor</h3>
+                    <p class="date">1997</p>
+                    <img src="{{ url_for('static', filename='images/Mars Global Surveyor.webp') }}" alt="Mars Global Surveyor">
+                    <p>Agenzia: NASA <br>
+                    Anno: 1997 <br>
+                    Tipo: Orbiter <br>
+                    Obiettivi raggiunti: <br>
+                    - Prima carta completa del pianeta <br>
+                    - Scoperte prove di acqua liquida in passato</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>Pathfinder & Sojourner</h3>
+                    <p class="date">1997</p>
+                    <img src="{{ url_for('static', filename='images/Pathfinder.webp') }}" alt="Pathfinder">
+                    <img src="{{ url_for('static', filename='images/Sojourner.webp') }}" alt="Sojourner">
+                    <p>Agenzia: NASA <br>
+                    Anno: 1997 <br>
+                    Tipo: Lander, rover <br>
+                    Obiettivi raggiunti: <br>
+                    - Primo rover operativo su Marte</p>
+                </div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>2001 Mars Odyssey</h3>
+                    <p class="date">2001</p>
+                    <img src="{{ url_for('static', filename='images/2001 Mars Odyssey.webp') }}" alt="2001 Mars Odyssey">
+                    <p>Agenzia: NASA <br>
+                    Anno: 2001 <br>
+                    Tipo: Orbiter <br>
+                    Obiettivi raggiunti: <br>
+                    - Record di longevità in orbita attorno a Marte (Ancora attivo)</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>Mars Express</h3>
+                    <p class="date">2003</p>
+                    <img src="{{ url_for('static', filename='images/Mars Express.jpg') }}" alt="Mars Express">
+                    <p>Agenzia: ESA <br>
+                    Anno: 2003 <br>
+                    Tipo: Orbiter <br>
+                    Obiettivi raggiunti: <br>
+                    - Prima missione europea su Marte <br>
+                    - Scoperta di ghiaccio e possibili laghi sotterranei</p>
+                </div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Spirit</h3>
+                    <p class="date">2004</p>
+                    <img src="{{ url_for('static', filename='images/Spirit.jpg') }}" alt="Spirit">
+                    <p>Agenzia: NASA <br>
+                    Anno: 2004 <br>
+                    Tipo: Rover <br>
+                    Obiettivi raggiunti: <br>
+                    - Trovate prove di acqua antica</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>Opportunity</h3>
+                    <p class="date">2004</p>
+                    <img src="{{ url_for('static', filename='images/Opportunity.jpg') }}" alt="Opportunity">
+                    <p>Agenzia: NASA <br>
+                    Anno: 2004 <br>
+                    Tipo: Rover <br>
+                    Obiettivi raggiunti: <br>
+                    - Previsti 90 giorni di missione prolungati fino a 15 anni <br>
+                    - Record di distanza assoluto di 45 chilometri</p>
+                </div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Curiosity</h3>
+                    <p class="date">2012</p>
+                    <img src="{{ url_for('static', filename='images/Curiosity.webp') }}" alt="Curiosity">
+                    <p>Agenzia: NASA <br>
+                    Anno: 2012 <br>
+                    Tipo: Rover <br>
+                    Obiettivi raggiunti: <br>
+                    - Laboratorio mobile <br>
+                    - Scoperta di abitabilità passata sul pianeta</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>Perseverance & Ingenuity</h3>
                     <p class="date">2021</p>
-                    <img src="https://via.placeholder.com/200x150?text=Missione+4" alt="Missione 4">
-                    <p>Descrizione della missione 4. Breve spiegazione di cosa ha fatto e risultati raggiunti.</p>
+                    <img src="{{ url_for('static', filename='images/Perseverance.jpg') }}" alt="Perseverance">
+                    <img src="{{ url_for('static', filename='images/Ingenuity.jpg') }}" alt="Ingenuity">                    
+                    <p>Agenzia: NASA <br>
+                    Anno: 2021 <br>
+                    Tipo: Rover <br>
+                    Obiettivi raggiunti: <br>
+                    - Raccolti campioni che verranno riportati sulla Terra in futuro <br>
+                    - Primo drone in assoluto su un altro pianeta</p>
                 </div>
             </div>
 
