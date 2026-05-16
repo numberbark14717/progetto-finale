@@ -110,3 +110,7 @@
   - Aggiunta nuova pagina "Agenzie"
   - Aggiunti i bottoni alla barra di navigazione a tutte le pagine per arrivare alla pagina "Agenzie"
   - Aggiunta parte linea del tempo "missioni programmate"
+
+- 16/05/2026
+  - Eliminati link dal fondo della pagina Home
+  - Aggiornata la sezione "come navigare tra le pagine" dell'home page
