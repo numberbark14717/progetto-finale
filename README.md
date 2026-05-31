@@ -119,3 +119,8 @@
   - Creato file .bat per permettere di avviare il server Flask e aprire il browser
   - Creata immagine favicon per il file "avvia_sito.bat"
   - Messa online su pythonanywhere una versione beta del sito all'indirizzo [https://numberbark14717.pythonanywhere.com/](https://numberbark14717.pythonanywhere.com/)
+
+- 31/05/2026
+  - Creata sezione di testo scienze, rinominata "Pianeta Rosso"
+  - Deciso l'utilizzo degli h3 per dividere i testi in sezioni
+  - Deciso il colore degli h3 (#f5f5f5)
