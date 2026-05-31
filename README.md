@@ -114,3 +114,8 @@
 - 16/05/2026
   - Eliminati link dal fondo della pagina Home
   - Aggiornata la sezione "come navigare tra le pagine" dell'home page
+
+- 25/05/2026
+  - Creato file .bat per permettere di avviare il server Flask e aprire il browser
+  - Creata immagine favicon per il file "avvia_sito.bat"
+  - Messa online su pythonanywhere una versione beta del sito all'indirizzo [https://numberbark14717.pythonanywhere.com/](https://numberbark14717.pythonanywhere.com/)
