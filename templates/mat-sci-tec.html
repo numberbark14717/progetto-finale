@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon.png') }}">
-    <title>Matematica, Scienze e Tecnologia</title>
+    <title>Scientifica</title>
 </head>
 
 <div class="navbar">
@@ -43,7 +43,7 @@
       <div class="navbar-dropdown-menu">
         <div class="hover-bridge"></div>
         <a href="{{ url_for('ing_spa') }}" class="navbar-dropdown-item">War of the worlds</a>
-        <a href="{{ url_for('ing_spa') }}#spagnolo" class="navbar-dropdown-item">Missioni ESA</a>
+        <a href="{{ url_for('ing_spa') }}#spagnolo" class="navbar-dropdown-item">Tecnología española para la atmósfera</a>
       </div>
     </div>
 
@@ -113,7 +113,33 @@
       </p>
         
         <h2 id="tecnologia">Sistemi di alimentazione</h2>
-        <p>Contenuto su tecnologia e innovazioni utilizzate nell'esplorazione di Marte verrà aggiunto qui.</p>
+        <p>Le sonde su Marte utilizzano principalmente due tipi di sistemi di alimentazione: RTG o pannelli solari, 
+           ognuno con le sue applicazioni: gli RTG vengono utilizzati per missioni di lunga durata o in aeree del pianeta in cui la luce solare arriva meno perpendicolare, 
+           come i poli, 
+           mentre i pannelli solari vengono usati per missioni di breve durata o in aree con buona esposizione al sole, 
+           come l'equatore.
+        </p>
+
+        <h3>RTG</h3>
+
+        <p>RTG (Radioisotope Thermoelectric Generators), consiste in delle celle contenenti plutonio-238, 
+        un elemento radioattivo che, 
+        tramite il suo decadimento, genera calore che viene poi convertito in energia elettrica. 
+        Questa fonte di energia è quella su cui le agenzie per ora puntano di più, 
+        in quanto non dipendendo dalla luce solare permette di avere una costante fonte di energia. <br> </p>
+        <h3>Pannelli solari</h3>
+        <p>I pannelli solari, 
+        che a seconda del tipo di sonda possono essere circolari o rettangolari, 
+        vengono affiancati da batterie che permettono un funzionamento anche durante le ore buie o di scarsa luminosità, 
+        come le tempeste.<br>
+        Se la sonda è un rover, 
+        che quindi necessita ampia libertà di movimento, 
+        i pannelli solari saranno rettangolari, 
+        in modo da integrarsi bene nella struttura del veicolo e non intralciarne il movimento o sbilanciarlo. <br>
+        Se invece la sonda è un lander, 
+        che quindi non si muove ed è ancorata al suolo, 
+        i pannelli solari saranno circolari perchè avendo apertura a ventaglio, 
+        a parità di spazio occupato in stiva fornisce poi più superficie e di conseguenza più energia. <br> </p>
     </div>
 </body>
 </html>

@@ -124,3 +124,9 @@
   - Creata sezione di testo scienze, rinominata "Pianeta Rosso"
   - Deciso l'utilizzo degli h3 per dividere i testi in sezioni
   - Deciso il colore degli h3 (#f5f5f5)
+
+- 13/06/2026
+  - Aggiunta sezione di tecnologia
+  - Aggiunta sezione di spagnolo
+  - Modificato il nome della sezione "Spagnolo" in "Tecnología española para la atmósfera" e nei bottoni delle barre di navigazione
+  - Cambiato il nome di tutte le pagine con i nomi dei rispettivi bottoni
