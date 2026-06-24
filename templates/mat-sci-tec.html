@@ -63,7 +63,7 @@
       <button class="navbar-btn navbar-dropdown-btn">Artistica ▼</button>
       <div class="navbar-dropdown-menu">
         <div class="hover-bridge"></div>
-        <a href="{{ url_for('mus_art') }}" class="navbar-dropdown-item">The planets</a>
+        <a href="{{ url_for('mus_art') }}" class="navbar-dropdown-item">I suoni di Marte</a>
         <a href="{{ url_for('mus_art') }}#arte" class="navbar-dropdown-item">Iconografie</a>
       </div>
     </div>
@@ -76,8 +76,50 @@
         <h1>Scientifica</h1>
 
         <h2>Comunicazioni sfalsate</h2>
-        <p>Contenuto su matematica e calcoli nell'esplorazione di Marte verrà aggiunto qui.</p>
+        <h3>Motivo del ritardo</h3>
+
+        <p>La distanza tra la Terra e Marte varia continuamente a causa delle loro orbite ellittiche. 
+          Questo significa che il tempo impiegato da un segnale radio per viaggiare da un pianeta all'altro cambia in base alla posizione dei due pianeti. 
+          La velocità del segnale è quella della luce, 
+          cioè circa 300.000 km/s, 
+          ma la distanza può variare da 54 milioni a circa 401 milioni di chilometri.</p>
+
+        <h3>Tempo del ritardo</h3>
+
+        <p>Quando Marte è relativamente vicino, 
+          un segnale impiega circa 7 minuti per arrivare.
+          Quando è lontano, può impiegare fino a 45 minuti.
+          Questo ritardo varia nel tempo in un ciclo che si ripete ogni 2 anni 
+          (Il rapporto tra la rivoluzione della Terra e quella di Marte è di 2/1) 
+          e rende impossibile controllare un rover in tempo reale: 
+          ogni comando che mandi in reazione a qualcosa arriva sul pianeta con un ritardo tra i 7 ed i 45 minuti.</p>
+
+        <h3>Spiegazione e calcolo del ritardo</h3>
+
+        <p>Il tempo che un segnale ci mette per andare e tornare da un punto ad un altro è calcolabile con una semplice formula. <br>
+          Per ottenere "t", 
+          che è il tempo del ping, 
+          si deve prendere "d", 
+          la distanza tra i due punti, 
+          che nel nostro caso sarà 225 milioni di chilometri, 
+          ossia la distanza media approssimata tra la Terra e Marte, 
+          e si divide per "c", 
+          che è una costante ed indica la velocità della luce nel vuoto, 
+          ossia 300.000 km/s. 
+          Per ottenere il tempo di andata e ritorno si moltiplica il risultato per 2, 
+          arrivando ad avere 1500 secondi che equivalgono a 25 minuti, 
+          ossia il tempo medio nelle trasmissioni tra le sonde marziane ed i centri di controllo sulla Terra. <br>
+          Visivamente appare così: <br> </p>
+          <p>
+            t = d / c · 2 → t = 
+            <span>
+                225.000.000 / 300.000
+            </span>
+            · 2 = 1500 s = 25 min
+          </p>
         
+        <p>La prossima sezione consigliata è:</p> <a href="#tecnologia">Sistemi di alimentazione</a>
+
         <h2 id="scienze">Pianeta rosso</h2>
 
         <h3>Proprietà fisiche</h3>
@@ -111,8 +153,11 @@
         e rende difficili gli atterraggi dei rover e dei lander, in quanto i paracaduti sono meno efficaci a causa della quasi nulla densità dell'aria.
  
       </p>
+
+      <p>La prossima sezione consigliata è:</p> <a href="ita-sto-geo#storia">L'esplorazione prima ed ora</a>
         
         <h2 id="tecnologia">Sistemi di alimentazione</h2>
+
         <p>Le sonde su Marte utilizzano principalmente due tipi di sistemi di alimentazione: RTG o pannelli solari, 
            ognuno con le sue applicazioni: gli RTG vengono utilizzati per missioni di lunga durata o in aeree del pianeta in cui la luce solare arriva meno perpendicolare, 
            come i poli, 
@@ -140,6 +185,9 @@
         che quindi non si muove ed è ancorata al suolo, 
         i pannelli solari saranno circolari perchè avendo apertura a ventaglio, 
         a parità di spazio occupato in stiva fornisce poi più superficie e di conseguenza più energia. <br> </p>
+
+      <p>La prossima sezione consigliata è:</p> <a href="ing-spa#spagnolo">Tecnología española para la atmósfera</a>
+
     </div>
 </body>
 </html>

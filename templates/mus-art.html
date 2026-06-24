@@ -74,11 +74,80 @@
 
 <body>
     <div class="container">
-        <h1>Musica</h1>
-        <p>Contenuto su musica ispirata dall'esplorazione di Marte verrà aggiunto qui.</p>
+        <h1>Artistica</h1>
+
+        <h2>I suoni di Marte</h2>
+
+        <p>Di seguito, 
+          premendo le due immagini, 
+          si potranno ascoltare dei suoni registrati su Marte</p>
+
+        <!-- SUONO 1 -->
+        <img src="{{ url_for('static', filename='bottone-play.png') }}"
+            alt="Suono 1"
+            style="width:200px;cursor:pointer;"
+            onclick="document.getElementById('sound1').play();">
+
+        <audio id="sound1" src="{{ url_for('static', filename='Mars_Wind_recording.wav') }}"></audio>
+        <p>Registrazione del vento di Marte</p>
+
+        <!-- SUONO 2 -->
+        <img src="{{ url_for('static', filename='bottone-play1.png') }}"
+            alt="Suono 2"
+            style="width:200px;cursor:pointer;"
+            onclick="document.getElementById('sound2').play();">
+
+        <audio id="sound2" src="{{ url_for('static', filename='Perseverance_Laser_shooting.wav') }}"></audio>
+        <p>Suono del laser di Perseverance in funzione</p>
         
-        <h1 id="arte">Arte</h1>
-        <p>Contenuto su arte e rappresentazioni visive dell'esplorazione di Marte verrà aggiunto qui.</p>
+        <h2 id="arte">Arte</h2>
+        <p>
+        In questa sezione sono riportate delle immagini di quattro importanti opere che raffigurano Marte. <br>
+        Sono tutte accompagnate da una breve descrizione che riporta il creatore dell'opera ed il periodo in cui è stata realizzata.
+        </p>
+
+        <h3>Statua colossale di Marte ultòre</h3>
+        <img src="{{ url_for('static', filename='opera1.png') }}" alt="Opera 1" style="width:300px;">
+        <p>
+        Questa statua risalente al II secolo d.c. è conservata ai musei capitolini di Roma.
+        La statua, alta circa 10 metri, 
+        raffigura il dio della guerra con i suoi oggetti caratteristici, ossia l'armatura, 
+        lo scudo e la lancia, per quanto se ne sia preservato solo un pezzo vicino alla mano in cui la stringeva.
+        </p>
+
+        <h3>Venere e Marte</h3>
+        <img src="{{ url_for('static', filename='opera2.png') }}" alt="Opera 2" style="width:300px;">
+        <p>
+        Questo dipinto, realizzato da Botticelli tra il 1400 ed il 1500, 
+        vede raffigurato il dio della guerra come un dio sconfitto dall'amore, con Venere che lo guarda. 
+        Ci sono anche dei fauno che stanno loro attorno e giocano con le sue armi.
+        </p>
+
+        <h3>Napoleone Bonaparte come Marte pacificatore</h3>
+        <img src="{{ url_for('static', filename='opera3.png') }}" alt="Opera 3" style="width:300px;">
+        <p>
+        In quest'opera del 1800, 
+        realizzata dall'artista Canova, 
+        si vede Napoleone Bonaparte in veste del dio, che però non è della guerra spietata, 
+        bensì della guerra fatta al fine di portare pace ed ordine. <br>
+        La statua presenta dettagli tipici del neoclassicismo, 
+        come il marmo bianco e levigato, 
+        la corporatura idealizzata e la postura elegante e decisa.
+        </p>
+
+        <h3>Beagle 2 Spot paintings</h3>
+        <img src="{{ url_for('static', filename='opera4.png') }}" alt="Opera 4" style="width:300px;">
+        <p>
+        Nel 2003, per la prima volta nella storia, un'opera d'arte esce dalla Terra per andare su un altro pianeta. 
+        L'artista Damien Hirst realizzò quest'opera per il lander britannico Beagle 2, 
+        una missione di un'università. Durante l'atterraggio sul pianeta però si persero i contatti con la sonda. <br>
+        Solo decenni dopo un orbiter della NASA fotografò la sonda integra sulla superficie del pianeta, 
+        dimostrando che l'opera si trovava effettivamente su Marte integra, 
+        rendendola di fatto la prima opera d'arte ad arrivare su un altro pianeta.
+        </p>
+
+        <p>La prossima sezione consigliata è:</p> <a href="edfis-irc#irc">Gli scienziati credenti</a>
+
     </div>
 </body>
 </html>
